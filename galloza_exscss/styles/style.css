@@ -1,0 +1,93 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600&display=swap");
+section {
+  background: linear-gradient(90deg, rgba(255, 255, 255, 0) 0%, #F9F8FB 50%), #FFFFFF;
+  border: 1px solid #EEECF1;
+  border-radius: 4px;
+  padding: 2rem;
+  width: 80%;
+  display: flex;
+  margin-left: 100px;
+}
+section .modals h1 {
+  font-family: Poppins, sans-serif;
+  color: #282828;
+  font-weight: 600;
+  font-size: 24px;
+  line-height: 30px;
+}
+section .modals button {
+  font-family: Poppins, sans-serif;
+  background: rgb(102, 56, 240);
+  color: white;
+  border: none;
+  border-radius: 4px;
+  padding: 5px 10px;
+}
+section .modals button a {
+  text-decoration: none;
+  color: white;
+}
+section .modals p {
+  font-family: Poppins, sans-serif;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 24px;
+}
+section .image {
+  height: 1rem;
+  margin-right: -100px;
+}
+
+#ex1 {
+  width: 100%;
+}
+#ex1 .container {
+  display: flex;
+}
+#ex1 .container .row {
+  display: flex;
+  width: 60%;
+  justify-content: space-between;
+}
+#ex1 .container .cta {
+  font-family: Poppins, sans-serif;
+  color: #282828;
+  font-weight: 600;
+  font-size: 24px;
+  line-height: 30px;
+}
+#ex1 .container .cta button {
+  font-family: Poppins, sans-serif;
+  background: rgb(102, 56, 240);
+  color: white;
+  border: none;
+  border-radius: 4px;
+  padding: 5px 10px;
+}
+#ex1 .container .cta button a {
+  text-decoration: none;
+  color: white;
+}
+#ex1 .container .cta p {
+  font-family: Poppins, sans-serif;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 24px;
+}
+#ex1 .container .v2 {
+  font-family: Poppins, sans-serif;
+  color: #6638F0;
+  font-size: 14px;
+}
+#ex1 .container .gradient {
+  background: linear-gradient(154.5deg, #6638F0 0%, #5CC9F5 100%);
+  height: 300px;
+  width: 375px;
+}
+
+@media (max-width: 576px) {
+  section {
+    width: 50%;
+    display: flex;
+  }
+}/*# sourceMappingURL=style.css.map */
